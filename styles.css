@@ -6,6 +6,10 @@ body {
 }
 
 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin-top: 100px;
 }
 
@@ -134,27 +138,42 @@ h2{
 @media (max-width: 768px) {
     h1 {
         font-size: 2rem;
+        padding: 10px;
     }
     p {
         font-size: 1rem;
+        padding: 5px;
     }
     .button {
         font-size: 1rem;
         padding: 10px 20px;
     }
     img {
-        max-width: 200px;
+        max-width: 100%;
+        height: auto;
     }
 }
+
+
 
 /* For Mobile Phones */
 @media (max-width: 480px) {
     h1 {
         font-size: 1.8rem;
     }
+
+    .welcome{
+        font-size: 1.8rem;
+    }
+
     p {
         font-size: 0.9rem;
     }
+
+    .firstpara{
+        justify-content: center;
+    }
+
     .button {
         font-size: 0.9rem;
         padding: 8px 16px;
@@ -164,3 +183,4 @@ h2{
         height: auto;
     }
 }
+
