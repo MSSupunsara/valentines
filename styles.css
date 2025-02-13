@@ -117,13 +117,14 @@ h2{
 .song{
     font-family: 'Times New Roman', Times, serif;
     color: rgb(44, 8, 201);
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .wish{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: red;
     font-size: 50px;
+    font-weight: bold;
     
 }
 
