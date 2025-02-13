@@ -1,0 +1,165 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #ffe6f2;
+    color: #d63384;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+.welcome {
+    font-size: 150px;
+}
+
+.firstpara {
+    font-size: 30px;
+    color: purple;
+}
+
+img {
+    width: 550px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+@keyframes pulse{
+    0% {
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(1.1);
+    }
+    75%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    margin-top: 20px;
+    background-color: #ff4081;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    animation: pulse 1.5s infinite; 
+}
+
+h1 {
+    font-size: 100px;
+    color: red;
+    text-align: center;
+}
+
+
+.lip {
+    width: 100px;
+    height:100px;
+    background-color: #ffe6f2;
+    border-radius: 50%;
+    margin: 35px auto;
+    position: relative;
+    animation: bloom 3s ease-in-out forwards;
+}
+
+.vpara{
+    font-size: 45px;
+    color: navy;
+}
+
+@keyframes blooming {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.5);
+        opacity: 0.8;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.lip {
+    font-size: 50px;
+    animation: blooming 2s ease-in-out infinite;
+}
+
+h2{
+    font-size: 40px;
+    color: black;
+}
+
+.buttonmessage {
+    display: inline-block;
+    padding: 12px 24px;
+    margin-top: 20px;
+    background-color: #ff4081;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    animation: pulse 1.5s infinite; 
+}
+
+.song{
+    font-family: 'Times New Roman', Times, serif;
+    color: crimson;
+    font-size: 40px;
+}
+
+.wish{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    font-size: 50px;
+}
+
+.last{
+    font-family: cursive;
+    color: black;
+    font-size: 26px;
+}
+
+/* Responsive Design for Different Screens */
+
+/* For Tablets */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .button {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+    img {
+        max-width: 200px;
+    }
+}
+
+/* For Mobile Phones */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+    p {
+        font-size: 0.9rem;
+    }
+    .button {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+    img {
+        max-width: 180px;
+    }
+}
