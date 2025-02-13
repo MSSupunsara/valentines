@@ -130,23 +130,6 @@ h2{
 
 /* Responsive Design for Different Screens */
 
-/* For Tablets */
-@media (max-width: 768px) {
-    h1 {
-        font-size: 2rem;
-    }
-    p {
-        font-size: 1rem;
-    }
-    .button {
-        font-size: 1rem;
-        padding: 10px 20px;
-    }
-    img {
-        max-width: 200px;
-    }
-}
-
 /* For Mobile Phones */
 @media (max-width: 480px) {
     h1 {
@@ -160,6 +143,6 @@ h2{
         padding: 8px 16px;
     }
     img {
-        max-width: 180px;
+        max-width: 100%;
     }
 }
