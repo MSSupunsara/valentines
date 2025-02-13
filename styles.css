@@ -73,7 +73,7 @@ h1 {
 }
 
 .vpara{
-    font-size: 45px;
+    font-size: 30px;
     color: navy;
 }
 
@@ -117,13 +117,14 @@ h2{
 .song{
     font-family: 'Times New Roman', Times, serif;
     color: rgb(44, 8, 201);
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .wish{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: red;
     font-size: 50px;
+    
 }
 
 .last{
@@ -182,5 +183,5 @@ h2{
         max-width:100%;
         height: auto;
     }
+    
 }
-
